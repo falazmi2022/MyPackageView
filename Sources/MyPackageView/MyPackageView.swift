@@ -3,4 +3,8 @@ public struct MyPackageView {
 
     public init() {
     }
+    
+    public func returnString()->String{
+        return "Hello from package"
+    }
 }
